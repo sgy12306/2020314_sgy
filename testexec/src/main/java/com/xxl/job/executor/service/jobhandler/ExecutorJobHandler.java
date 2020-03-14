@@ -98,12 +98,11 @@ public class ExecutorJobHandler  {
 //            //  删除临时文件
             if (FileUtil.exist(tmpFilePath)) {
                 FileUtil.del(new File(tmpFilePath));
-                System.out.println("妈啊吗");
-                System.out.println("妈啊吗");
-                System.out.println("妈啊吗");
-                System.out.println("妈啊吗");
-                System.out.println("妈啊吗");
-                System.out.println("妈啊吗");
+                System.err.println("11");
+                System.err.println("11");
+                System.err.println("11");
+
+
             }
         }
         if (exitValue == 0) {
