@@ -99,9 +99,6 @@ public class ExecutorJobHandler  {
             if (FileUtil.exist(tmpFilePath)) {
                 FileUtil.del(new File(tmpFilePath));
                 System.out.println("fjja");
-                System.out.println("fjja");
-                System.out.println("fjja");
-                System.out.println("fjja");
             }
         }
         if (exitValue == 0) {
