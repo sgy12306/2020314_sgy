@@ -96,13 +96,9 @@ public class ExecutorJobHandler  {
                 errThread.interrupt();
             }
 //            //  删除临时文件
-            if (FileUtil.exist(tmpFilePath)) {
-                FileUtil.del(new File(tmpFilePath));
-                System.out.println("fjja");
-                System.out.println("fjja");
-                System.out.println("fjja");
-                System.out.println("fjja");
-            }
+//            if (FileUtil.exist(tmpFilePath)) {
+//                FileUtil.del(new File(tmpFilePath));
+//            }
         }
         if (exitValue == 0) {
             return IJobHandler.SUCCESS;
